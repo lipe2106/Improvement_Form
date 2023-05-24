@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "improvement-form-client-side-solution",
+    "id": "96dd3d77-6146-48de-9893-450101dcda08",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "improvement-form description"
+      },
+      "longDescription": {
+        "default": "improvement-form description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "improvement-form Feature",
+        "description": "The feature that activates elements of the improvement-form solution.",
+        "id": "cf73e07f-9be6-424b-9b4f-1ad69c89d5d5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/improvement-form.sppkg"
+  }
+}
